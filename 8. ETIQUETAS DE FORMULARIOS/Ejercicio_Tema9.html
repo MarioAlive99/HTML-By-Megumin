@@ -1,0 +1,77 @@
+<!--
+  Hit RUN to see this project in action!
+  
+  This project will auto-refresh as you edit the HTML, CSS and JS.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ejercicio - Tema 2</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <form name="formulario" method="post" action="/send/">
+      Nombre:
+      <input type="text" autocomplete="off" placeholder="Introduce tu nombre">
+      <br/><br/>
+      Contraseña:
+      <input type="password" autocomplete="off" placeholder="Tu contraseña de 8 caracteres">
+      <br/><br/>
+      Razon social:
+      <textarea name="text" cols="80" rows="10"></textarea>
+      <br/><br/>
+      Edad:
+      <input type="number" value="25" min="10" max="20" step="1">
+      <br/><br/>
+      Fecha:
+      <input type="date" value="2024-01-01">
+      Mes:
+      <input type="month" value="2024-01">
+      Semana:
+      <input type="week" min="2024-W3" max="2024-W34">
+      <br/><br/>
+      Hora:
+      <input type="time" max="07:00" min="20:00">
+      Checkeo:
+      <input type="checkbox" name="username_enabled" checked> Mostrar nombre del usuario
+      <br/><br/>
+      Radio:
+      <input type="radio" value="user"> Usuario
+      <input type="radio" value="participante"> Participante
+      <br/><br/>
+      Color: <input type="color">
+      <br/><br/>
+      Selecciona la opcion deseada:
+      <select>
+        <option disabled selected>1. Belisario Dominguez</option>
+        <option>2. Tlanepantla</option>
+        <option>3. Gustavo Baz</option>
+      </select>
+      <br/><br/>
+      Selecciona una imagen
+      <input type="file" accept="image/jpeg" multiple>
+      <br/><br/>
+      <fieldset>
+        <legend>
+          Datos personales
+        </legend>
+        Tu nombre:
+        <input type="text" placeholder="Tu nombre aqui."> 
+      </fieldset>
+      <progress value="1.2" max="20">20%</progress>
+      <meter value="50"></meter>
+      <br/><br/>
+      Enviar archivo:
+      <input type="submit" value="Confirmar?">
+    </form>
+  </div>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
