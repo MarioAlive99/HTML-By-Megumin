@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: #fff;
+    background-color: #dc143c;
+    padding: 15px;
+    border: 10px solid powderblue;
+    margin: 40px 10px 20px 10px;
+}
+
